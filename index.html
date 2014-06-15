@@ -16,6 +16,7 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-gallery.min.css">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -28,9 +29,8 @@
   </head>
 
   <body>
-
     <!-- Static navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-inverse navbar-static-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -60,11 +60,46 @@
 					<h1>GIULIA POLLAROLO</h1>
 					<h2>SPARE TIME PAINTER</h2>
 				</div>
-			</div><! --/row -->
+			</div><!--/row -->
 	    </div> <!-- /container -->
-	</div><! --/headerwrap -->
+	</div><!--/headerwrap -->
+	<div class="container">
+	<div class="gallery row centered mt mb">
+	  <h1>My Works</h1>
+	  <a class="thumbnail col-xs-6 col-sm-4" href="assets/img/portfolio/disegno_zucca.png" target="_"blank"">
+	    <img src="assets/img/portfolio/disegno_zucca.png">
+	  </a>
+	  <a class="thumbnail col-xs-6 col-sm-4" href="assets/img/portfolio/china_alberi.png" target="_"blank"">
+	    <img src="assets/img/portfolio/china_alberi.png">
+	  </a>
+	  <a class="thumbnail col-xs-6 col-sm-4" href="assets/img/portfolio/pastello_donne_mare.png" target="_"blank"">
+	    <img src="assets/img/portfolio/pastello_donne_mare.png">
+	  </a>
+	  <a class="thumbnail col-xs-6 col-sm-4" href="assets/img/portfolio/pastello_trenino.png" target="_"blank"">
+	    <img src="assets/img/portfolio/pastello_trenino.png">
+	  </a>
+	  <a class="thumbnail col-xs-6 col-sm-4" href="assets/img/portfolio/acquerello_colunga.png" target="_"blank"">
+	    <img src="assets/img/portfolio/acquerello_colunga.png">
+	  </a>
+	  <a class="thumbnail col-xs-6 col-sm-4" href="assets/img/portfolio/acquerello_mare.png" target="_"blank"">
+	    <img src="assets/img/portfolio/acquerello_mare.png">
+	  </a>
+	  <a class="thumbnail col-xs-6 col-sm-4" href="assets/img/portfolio/acquerello_stintino.png" target="_"blank"">
+	    <img src="assets/img/portfolio/acquerello_stintino.png">
+	  </a>
+	  <a class="thumbnail col-xs-6 col-sm-4" href="assets/img/portfolio/acrilico_colorado.png" target="_"blank"">
+	    <img src="assets/img/portfolio/acrilico_colorado.png">
+	  </a>
+	  <a class="thumbnail col-xs-6 col-sm-4" href="assets/img/portfolio/acrilico_pueblo.png" target="_"blank"">
+	    <img src="assets/img/portfolio/acrilico_pueblo.png">
+	  </a>
+	  <a class="thumbnail col-xs-6 col-sm-4" href="assets/img/portfolio/acrilico_papavero.png" target="_"blank"">
+	    <img src="assets/img/portfolio/acrilico_papavero.png">
+	  </a>
+	</div>
+	</div>
 	
-	<section id="works"></section>
+<!-- 	<section id="works"></section>
 	<div class="container">
 		<div class="row centered mt mb">
 			<h1>My Portfolio</h1>
@@ -87,10 +122,10 @@
 			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
 				<a href="work.html"><img src="assets/img/portfolio/folio06.png" class="img-responsive"></a>
 			</div>
-		</div><! --/row -->
-	</div><! --/container -->
+		</div><! --/row
+	</div -->><!--/container -->
 	
-	<div id="social">
+	<!-- <div id="social">
 		<div class="container">
 			<div class="row centered">
 				<div class="col-lg-2">
@@ -112,33 +147,37 @@
 					<a href="#"><i class="fa fa-tumblr"></i></a>
 				</div>
 			
-			</div><! --/row -->
-		</div><! --/container -->
-	</div><! --/social -->
+			</div> --><!--/row -->
+		<!--</div><!--/container -->
+	<!--</div><!--/social -->
 
 	<div id="footerwrap">
 		<div class="container">
 			<div class="row centered">
 				<div class="col-lg-4">
-					<p><b>WEB DESIGNER, DEVELOPER & GAME ADDICT</b></p>
+					<p><b>SPARE TIME PAINTER</b></p>
 				</div>
 			
 				<div class="col-lg-4">
-					<p>Living in the amazing London.</p>
+					<p>Living in the Spanish Barcelona.</p>
 				</div>
 				<div class="col-lg-4">
-					<p>hello@instant.com</p>
+					<p>@gpolla</p>
 				</div>
 			</div>
 		</div>
-	</div><! --/footerwrap -->
-	
-
+	</div><!--/footerwrap -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-gallery.min.js"></script>
+    <script type="text/javascript">
+		$('.gallery').bootstrapGallery({
+		  iconset: "fontawesome"
+		});
+	</script>
   </body>
 </html>
