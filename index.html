@@ -67,7 +67,7 @@
 	<section id="works"></section>
 	<div class="container centered">
 		<h1>My Works</h1>
-		<div class="gallery row centered mt mb">
+		<div class="gallery justifyGallery">
 		  <a class="thumbnail col-xs-6 col-sm-4" href="assets/img/portfolio/disegno_zucca.jpg">
 		    <img src="assets/img/portfolio/disegno_zucca_low.jpg">
 		  </a>
@@ -80,8 +80,8 @@
 		  <a class="thumbnail col-xs-6 col-sm-4" href="assets/img/portfolio/pastello_trenino.jpg">
 		    <img src="assets/img/portfolio/pastello_trenino_low.jpg">
 		  </a>
-		  <a class="thumbnail col-xs-6 col-sm-4" href="assets/img/portfolio/acquerello_colunga.jpg">
-		    <img src="assets/img/portfolio/acquerello_colunga_low.jpg">
+		  <a class="thumbnail col-xs-6 col-sm-4" href="assets/img/portfolio/acrilico_pueblo.jpg">
+		    <img src="assets/img/portfolio/acrilico_pueblo_low.jpg">
 		  </a>
 		  <a class="thumbnail col-xs-6 col-sm-4" href="assets/img/portfolio/acquerello_mare.jpg">
 		    <img src="assets/img/portfolio/acquerello_mare_low.jpg">
@@ -89,8 +89,8 @@
 		  <a class="thumbnail col-xs-6 col-sm-4" href="assets/img/portfolio/acquerello_stintino.jpg">
 		    <img src="assets/img/portfolio/acquerello_stintino_low.jpg">
 		  </a>
-		  <a class="thumbnail col-xs-6 col-sm-4" href="assets/img/portfolio/acrilico_pueblo.jpg">
-		    <img src="assets/img/portfolio/acrilico_pueblo_low.jpg">
+		  <a class="thumbnail col-xs-6 col-sm-4" href="assets/img/portfolio/acquerello_colunga.jpg">
+		    <img src="assets/img/portfolio/acquerello_colunga_low.jpg">
 		  </a>
 		  <a class="thumbnail col-xs-6 col-sm-4" href="assets/img/portfolio/acrilico_papavero.jpg">
 		    <img src="assets/img/portfolio/acrilico_papavero_low.jpg">
@@ -150,10 +150,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap-gallery.min.js"></script>
+    <script type="text/javascript" src="https://raw.githubusercontent.com/miromannino/Justified-Gallery/master/dist/js/jquery.justifiedGallery.min.js"></script>
     <script type="text/javascript">
-		$('.gallery').bootstrapGallery({
-		  iconset: "fontawesome"
-		});
+    	$(".gallery").justifiedGallery();
+		// $('.gallery').bootstrapGallery({
+		//   iconset: "fontawesome"
+		// });
 	</script>
   </body>
 </html>
